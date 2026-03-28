@@ -8,3 +8,4 @@ Projeto em React + Vite pronto para subir na Vercel.
 
 ## Build
 npm run build
+update
