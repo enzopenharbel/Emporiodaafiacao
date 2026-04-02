@@ -3,14 +3,27 @@ import { Menu, Scissors, Search, Star, Wrench, X } from "lucide-react";
 import { Helmet } from "react-helmet";
 
 const services = [
-  { title: "Afiação de Alicates", icon: Scissors },
-  { title: "Afiação de Tesouras", icon: Scissors },
-  { title: "Afiação de Facas", icon: Scissors },
-  { title: "Afiação de Espátulas", icon: Scissors },
-  { title: "Troca de Molas", icon: Wrench },
-  { title: "Venda de Acessórios para Manicure", icon: Wrench },
+  {
+    title: "Afiações",
+    description: "Serviço principal com corte preciso e acabamento profissional.",
+    icon: Scissors,
+  },
+  {
+    title: "Venda de Produtos",
+    description: "Acessórios e ferramentas selecionadas para manicure.",
+    icon: Wrench,
+  },
+  {
+    title: "Gravações",
+    description: "Personalização profissional de instrumentos.",
+    icon: Star,
+  },
+  {
+    title: "Troca de Molas",
+    description: "Manutenção completa para prolongar a vida útil do alicate.",
+    icon: Wrench,
+  },
 ];
-
 const products = [
   {
     name: "Alicate Profissional",
